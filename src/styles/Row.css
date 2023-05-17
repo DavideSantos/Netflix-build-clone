@@ -8,6 +8,8 @@
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 20px;
+  mouse-wheel: horizontal;
+  scroll-direction: horizontal;
 }
 
 .row__posters::-webkit-scrollbar {
