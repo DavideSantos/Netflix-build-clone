@@ -18,12 +18,14 @@
 }
 
 .Banner__description {
-  width: 45rem;
+  /* width: 45rem; */
   line-height: 1.3;
   padding-top: 1rem;
   font-size: 0.8rem;
   max-weight: 360px;
   height: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner--fadeBottom {
