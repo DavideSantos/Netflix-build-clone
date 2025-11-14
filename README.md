@@ -21,19 +21,9 @@ Apri http://localhost:3000
 
 - Project ID: `netflix-build-clone-b4745`
 - URL: https://netflix-build-clone-b4745.web.app/
-- Non devi creare un nuovo progetto
+- Per creare un nuovo account, avvia l'app e registrati dalla pagina di login
 
-### 2. 🔐 Non ricordi le credenziali di accesso?
-
-Leggi il file **`RECUPERO_CREDENZIALI.md`** per una guida completa su come:
-
-- Recuperare email/password dal browser
-- Accedere alla Firebase Console
-- Creare un nuovo account se necessario
-
-**Opzione veloce:** Crea semplicemente un nuovo account dall'app!
-
-### 3. Deploy
+### 2. Deploy
 
 ```bash
 npm run build
@@ -42,7 +32,7 @@ firebase deploy
 
 L'URL sarà: https://netflix-build-clone-b4745.web.app/
 
-### 4. Logo (Opzionale)
+### 3. Logo (Opzionale)
 
 - Il file `src/assets/netflix-logo.png` può essere sostituito con il tuo logo
 - Dimensioni consigliate: 200x50px
