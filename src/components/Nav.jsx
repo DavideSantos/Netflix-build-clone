@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Nav.css";
-import logo from "../assets/netflix-logo.png";
 import { useHistory } from "react-router-dom";
 
 const Nav = () => {
@@ -22,16 +21,23 @@ const Nav = () => {
   return (
     <div className={`nav ${show && "nav__black"}`}>
       <div className="nav__contents">
-        <img
+        <div
           onClick={() => history.push("/")}
           className="nav__logo"
-          src={logo}
-          alt="logo"
-        />
+          style={{
+            fontSize: "2.5rem",
+            fontWeight: "normal",
+            color: "#E50914",
+            cursor: "pointer",
+            fontFamily: "'Bebas Neue', Arial, sans-serif",
+            letterSpacing: "0.05em",
+          }}>
+          NEFLIX
+        </div>
         <img
           onClick={() => history.push("/profile")}
           className="nav__avatar"
-          src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+          src="https://i.imgur.com/6VBx3io.png"
           alt="avatar"
         />
       </div>

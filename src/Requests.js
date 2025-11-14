@@ -1,9 +1,10 @@
-// questa chiave di solito va inserita nel env.API_KEY
-const API_KEY = "a7be90368ac17237c1e517244e57bdae";
+// Usa la chiave API da variabile d'ambiente per sicurezza
+const API_KEY =
+  process.env.REACT_APP_TMDB_API_KEY || "a7be90368ac17237c1e517244e57bdae";
 
 const requests = {
   fetchTrending: `https://api.themoviedb.org/3/trending/all/week?api_key=${API_KEY}&language=en-US`,
-  fetchNetflixOriginals: `https://api.themoviedb.org/3/discover/tv?api_key=${API_KEY}&with_networks=213`,
+  fetchOriginals: `https://api.themoviedb.org/3/discover/tv?api_key=${API_KEY}&with_networks=213`,
   fetchTopRated: `https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}&language=en-US`,
   fetchActionMovies: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=28`,
   fetchComedyMovies: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=35`,

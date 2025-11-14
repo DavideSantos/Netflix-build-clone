@@ -7,11 +7,18 @@ const LoginScreen = () => {
   return (
     <div className="loginScreen">
       <div className="loginScreen__background">
-        <img
+        <div
           className="loginScreen__logo"
-          src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
-          alt="netflix logo"
-        />
+          style={{
+            fontSize: "3.5rem",
+            fontWeight: "normal",
+            color: "#E50914",
+            fontFamily: "'Bebas Neue', Arial, sans-serif",
+            letterSpacing: "0.05em",
+            padding: "20px",
+          }}>
+          NEFLIX
+        </div>
         <button onClick={() => setSignIn(true)} className="logiScreen__button">
           Sign In
         </button>
@@ -35,8 +42,7 @@ const LoginScreen = () => {
                   <input type="email" placeholder="Email Address" />
                   <button
                     onClick={() => setSignIn(true)}
-                    className="loginScreen__getStarted"
-                  >
+                    className="loginScreen__getStarted">
                     GET STARTED
                   </button>
                 </form>

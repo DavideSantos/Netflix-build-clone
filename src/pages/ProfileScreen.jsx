@@ -33,10 +33,7 @@ const ProfileScreen = () => {
       <div className="profileScreen__body">
         <h1>Edit Profile</h1>
         <div className="profileScreen__info">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
-            alt=""
-          />
+          <img src="https://i.imgur.com/6VBx3io.png" alt="" />
           <div className="profileScreen__details">
             <h2>{user.email}</h2>
             <div className="profileScreen__plans">
@@ -45,8 +42,7 @@ const ProfileScreen = () => {
               <PlansScreen />
               <button
                 onClick={() => auth.signOut()}
-                className="profileScreen__signOut"
-              >
+                className="profileScreen__signOut">
                 Sign Out
               </button>
             </div>

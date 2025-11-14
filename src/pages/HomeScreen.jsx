@@ -13,8 +13,8 @@ const HomeScreen = () => {
       <Banner />
 
       <Row
-        title="Netflix Originals"
-        fetchUrl={requests.fetchNetflixOriginals}
+        title="Neflix Originals"
+        fetchUrl={requests.fetchOriginals}
         isLargeRow
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTopRated} />

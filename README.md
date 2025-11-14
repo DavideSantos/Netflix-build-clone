@@ -1,8 +1,53 @@
-Live Preview at https://netflix-build-clone-b4745.web.app/
+# Neflix - Piattaforma di Streaming
 
+Progetto di streaming video realizzato con React e Redux.
 
+**Nota:** Il nome "Neflix" (con una F) è stato scelto per evitare problemi di copyright con Netflix™ (con due F).
 
-# Getting Started with Create React App and Redux
+## 🚀 Avvio Rapido
+
+```bash
+npm install
+npm start
+```
+
+Apri http://localhost:3000
+
+## ⚠️ Setup Importante
+
+### 1. Configurazione Firebase
+
+✅ **Le credenziali Firebase sono già configurate!**
+
+- Project ID: `netflix-build-clone-b4745`
+- URL: https://netflix-build-clone-b4745.web.app/
+- Non devi creare un nuovo progetto
+
+### 2. 🔐 Non ricordi le credenziali di accesso?
+
+Leggi il file **`RECUPERO_CREDENZIALI.md`** per una guida completa su come:
+
+- Recuperare email/password dal browser
+- Accedere alla Firebase Console
+- Creare un nuovo account se necessario
+
+**Opzione veloce:** Crea semplicemente un nuovo account dall'app!
+
+### 3. Deploy
+
+```bash
+npm run build
+firebase deploy
+```
+
+L'URL sarà: https://netflix-build-clone-b4745.web.app/
+
+### 4. Logo (Opzionale)
+
+- Il file `src/assets/netflix-logo.png` può essere sostituito con il tuo logo
+- Dimensioni consigliate: 200x50px
+
+## Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
